@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to right, #001f3f, #0074D9);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  font-size: 3rem;
+  animation: titilo 3s infinite alternate;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+}
+
+@keyframes titilo {
+  from {
+    color: #ffffff;
+    transform: scale(1);
+  }
+  to {
+    color: #00d2ff;
+    transform: scale(1.05);
+  }
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-contenido {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #011627;
+}
+
+.columna {
+  background-color: #033860;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.columna img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+form input, form button {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #00d2ff;
+  color: #011627;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #00d2ff;
+  text-decoration: none;
+}
